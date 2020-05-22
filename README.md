@@ -19,7 +19,7 @@ As this is a matlab function (adding a python version soon), then usage is reall
 	feat = getTDPSDfeat(x,winsize,wininc)
 
 ## Inputs
-	x 			columns of signals (rows are samples and column are the signals).
+	x 		columns of signals (rows are samples and column are the signals).
 	winsize 	window size.
 	wininc		how much to slide the windows by.
 	
