@@ -25,3 +25,7 @@ As this is a matlab function (adding a python version soon), then usage is reall
 	
 ## Outputs
 	feat	extracted features from all channels/combinations of channels
+	
+## Reference Paper
+	A. H. Al-Timemy, R. N. Khushaba, G. Bugmann and J. Escudero, "Improving the Performance Against Force Variation of EMG Controlled Multifunctional Upper-Limb Prostheses for Transradial Amputees," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 24, no. 6, pp. 650-661, June 2016, doi: 10.1109/TNSRE.2015.2445634.
+	Available at https://ieeexplore.ieee.org/document/7131549
