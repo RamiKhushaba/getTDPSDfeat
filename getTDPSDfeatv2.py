@@ -42,7 +42,7 @@
 
 import numpy as np
 
-def getTDPSDfeat(x,*slidingParams):
+def getTDPSDfeatv2(x,*slidingParams):
     
     # x should be a numpy array
     x = np.array(x)
@@ -130,7 +130,7 @@ def  KSM1(S):
     IRF    = m2/np.sqrt(np.multiply(m0,m4))
     
     # Waveform length ratio
-    WLR    = np.sum(np.abs(d1),axis=0)/np.sum(np.abs(d2),axis=0)
+    WLR    = np.sum(np.abs(d1),axis=0)-np.sum(np.abs(d2),axis=0)
     WLR = WLR[:,np.newaxis]
     # All features together
     Feat   = np.concatenate((m0, m0-m2, m0-m4,sparsi, IRF, WLR), axis=0)

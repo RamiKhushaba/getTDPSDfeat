@@ -74,11 +74,11 @@ def getTDPSDfeatv3(x,*slidingParams):
         efp=KSM1(np.log(curwin**2+np.spacing(1)))
         
         # Step2: Correlation analysis
-        num = -2 * np.multiply(efp,ebp);
-        den = np.multiply(efp,efp) + np.multiply(ebp,ebp);
+        num = -2 * np.multiply(efp,ebp)
+        den = np.multiply(efp,efp) + np.multiply(ebp,ebp)
         
         # feature extraction goes here
-        feat[i,:] = num-den;
+        feat[i,:] = num-den
         st = st + wininc
         en = en + wininc
         
